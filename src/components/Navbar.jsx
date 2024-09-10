@@ -36,7 +36,7 @@ function Navbar() {
 
                     <div className="category text-white mx-3 md:mx-0">
                         <ul className="flex gap-3">
-                            <li className=""><NavLink to="/" className={({isActive})=>{ return `${isActive ? "text-red-500" :""} hover:text-red-500`}} >Home</NavLink></li>
+                            <li className=""><NavLink to="/Movies-Database/" className={({isActive})=>{ return `${isActive ? "text-red-500" :""} hover:text-red-500`}} >Home</NavLink></li>
                             <li className=" "><NavLink to="/allmovies" className={({isActive})=>{return `${isActive ?  "text-red-500" :""} hover:text-red-500`}}>Movies</NavLink></li>
                             <li className=" "><NavLink to="/allseries" className={({isActive})=>{return `${isActive ?  "text-red-500" :""} hover:text-red-500`}}>Series</NavLink></li>
                             <li className=" "><NavLink to="/allcartoons" className={({isActive})=>{return `${isActive ?  "text-red-500" :""} hover:text-red-500`}}>Cartoon</NavLink></li>

@@ -31,7 +31,7 @@ function App() {
       <Navbar/>
       <div className="space-y-10">
       <Routes>
-      <Route path='/' element={
+      <Route path='/Movies-Database/' element={
         <>
         <Slider/>
         <MoviesCards/>
