@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import Slider from './components/Slider'
 import MoviesCards from './components/MoviesCards'
-import UsableData from './components/usableData'
+import UsableData from './components/UsableData'
 import SeriesCards from './components/SeriesCards'
 import CartoonCards from './components/CartoonCards'
 import Footer from './components/Footer'
@@ -14,6 +14,7 @@ import AllSeries from './components/AllSeries'
 import AllCartoons from './components/AllCartoons'
 import CardDetails from './components/CardDetails'
 import SearchCard from './components/SearchCard'
+
 
 
 
