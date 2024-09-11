@@ -9,8 +9,8 @@ const {contentName,contentType,path} = props;
   return (
     <>
         <h1 className='text-3xl lg:text-xl font-semibold text-white mx-6 '>{contentName}</h1>
-      <div className="bg-transparent text-white  overflow-x-auto px-5 scroll-hidden ">
-        <div className="container flex gap-5 w-full h-[58vw] overflow-y-hidden scroll-hidden md:h-auto lg:h-[22vw]">
+      <div className="bg-transparent text-white w-full  overflow-x-auto px-5 scroll-hidden ">
+        <div className="container  flex gap-5 w-full h-[58vw] overflow-y-hidden scroll-hidden md:h-auto lg:h-[22vw]">
             
        {contentType.map((val,i)=>{return <Cards key={i} title={val.Title} image={val.Poster==='N/A'? 'https://www.shutterstock.com/shutterstock/photos/89051818/display_1500/stock-vector-no-picture-image-internet-error-thumbnail-89051818.jpg' : val.Poster} />})}
        
