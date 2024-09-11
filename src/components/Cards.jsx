@@ -14,10 +14,10 @@ function Cards(props) {
   
   return (
     <>
-         <Link to='/card-database'><div onClick={clickHandler} className="card h-[20vw] w-[12vw] space-y-2 cursor-pointer hover:scale-90 transition duration-150 ease-in-out ">
+         <Link to='/card-database'><div onClick={clickHandler} className="card w-[27vw] md:h-[38vw] lg:h-[20vw] lg:w-[12vw] space-y-2 cursor-pointer hover:scale-90 transition duration-150 ease-in-out ">
             <img className='h-[80%] w-full rounded-md ' src={image} alt="" title={title} />
-            <div className="name text-center w-[13vw] ">
-              <p className='text-base text-white h-[5vw] overflow-hidden ' title={title}>{title}</p>
+            <div className="name text-center overflow-hidden h-[13vw] lg:h-[6vw] w-[27vw] lg:w-[13vw] ">
+              <p className='text-base text-white  flex flex-wrap  ' title={title}>{title}</p>
             </div>
           </div>
           </Link>

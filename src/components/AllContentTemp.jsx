@@ -16,7 +16,7 @@ function AllContentTemp(props) {
         <> 
         {value.res ? <Spinner/> :
          <div className="allMovies p-10 space-y-7 h-full ">
-                <h1 className='text-2xl font-semibold text-white mx-1 '>{contentName}</h1>
+                <h1 className='text-4xl lg:text-2xl font-semibold text-white mx-1 '>{contentName}</h1>
                 <InfiniteScroll
                     dataLength={data.length}
                     next={fetchMoreData}
@@ -28,7 +28,7 @@ function AllContentTemp(props) {
                         </p>
                     }
                 >
-                    <div className="box flex gap-5 h-full flex-wrap justify-start space-y-4">
+                    <div className="box flex gap-5 h-full flex-wrap justify-center lg:justify-start space-y-4">
                         {data.map((val, i) => {
                             return <Cards key={i} title={val.Title} image={val.Poster === 'N/A' ? 'https://www.shutterstock.com/shutterstock/photos/89051818/display_1500/stock-vector-no-picture-image-internet-error-thumbnail-89051818.jpg' : val.Poster} />
                         })}
